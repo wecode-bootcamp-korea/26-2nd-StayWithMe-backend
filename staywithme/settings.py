@@ -18,6 +18,7 @@ import pymysql
 pymysql.install_as_MySQLdb()
 
 SECRET_KEY = os.environ['staywithme_SECRET_KEY']
+ALGORITHM  = os.environ['ALGORITHM']
 
 DATABASES = {
     'default' : {
@@ -68,6 +69,7 @@ MIDDLEWARE = [
     # 'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'staywithme.urls'
