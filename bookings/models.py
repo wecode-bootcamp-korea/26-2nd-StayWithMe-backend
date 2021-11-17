@@ -12,6 +12,8 @@ class Booking(TimeStamp):
     number_of_adult = models.IntegerField()
     payment_type    = models.ForeignKey('PaymentType', on_delete=models.CASCADE)
     user_request    = models.CharField(max_length=200, null=True)
+    name            = models.CharField(max_length=40)
+    phone_number    = models.CharField(max_length=15)
 
     class Meta:
         db_table = 'bookings'
