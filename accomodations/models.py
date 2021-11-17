@@ -42,8 +42,8 @@ class Room(TimeStamp):
         db_table = 'rooms'
 
 class RoomImage(models.Model):
-    room  = models.IntegerField()
-    image = models.CharField(max_length=2000)
+    room      = models.ForeignKey('Room', on_delete=models.CASCADE)
+    image_url = models.CharField(max_length=2000)
 
     class Meta:
         db_table = 'room_images'
