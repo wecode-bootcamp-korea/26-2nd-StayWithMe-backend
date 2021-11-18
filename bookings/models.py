@@ -14,9 +14,16 @@ class Booking(TimeStamp):
     user_request    = models.CharField(max_length=200, null=True)
     name            = models.CharField(max_length=40)
     phone_number    = models.CharField(max_length=15)
+    status          = models.ForeignKey('BookingStatus', on_delete=models.CASCADE, default=1)
 
     class Meta:
         db_table = 'bookings'
+
+class BookingStatus(TimeStamp):
+    status = models.CharField(max_length=20)
+
+    class Meta:
+        db_table = 'booking_statuses'
 
 class PaymentType(models.Model):
     name = models.CharField(max_length=40)
