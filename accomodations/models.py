@@ -23,7 +23,7 @@ class Accomodation(TimeStamp):
         db_table = 'accomodations'
     
 class AccomodationImage(models.Model):
-    image_url          = models.CharField(max_length=2000)
+    image_url    = models.CharField(max_length=2000)
     accomodation = models.ForeignKey('Accomodation', on_delete=models.CASCADE, related_name='images')
 
     class Meta:
