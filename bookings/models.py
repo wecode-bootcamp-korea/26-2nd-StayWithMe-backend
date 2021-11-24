@@ -15,7 +15,7 @@ class Booking(TimeStamp):
     name            = models.CharField(max_length=40)
     phone_number    = models.CharField(max_length=15)
     status          = models.ForeignKey('BookingStatus', on_delete=models.CASCADE, default=1)
-    deleted_at      = models.DateTimeField(auto_now_add=True, null = True)
+    deleted_at      = models.DateTimeField(null = True)
 
     class Meta:
         db_table = 'bookings'
