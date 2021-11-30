@@ -1,0 +1,71 @@
+# 🙌 안녕하세요. Staywithme 입니다!   
+
+## 🗺  스테이폴리오 클론 프로젝트
+🛋 각 숙소에 대한 정보를 접근하기 위한, Feed list 형식을 제공합니다.
+🛋 정보의 접근성을위해, pagination을 통해 list로 분할하여 보여줍니다.
+🛋 각 숙소에 대한 DetailPage 내에서 숙소에 대한 정보 및 이미지를 확인할 수 있으며 Info-Extension을 Carousel-Slider를 통해 보여줍니다.
+
+## 🏷 목차
+1. 기간
+2. 팀원 소개
+3. 프로젝트 선정이유
+4. 주요 기능 및 개인별 역할
+5. 기술 스택
+6. 후기
+
+## ⏱ 기간
+2021년 11월 15일 ~ 2021년 11월 26일(12일간)
+
+## 🙋‍♀️ 팀원 소개
+개발 인원 : 프론트엔드 3명, 백엔드 2명
+
+## 🛠 주요 기능 및 개인별 역할
+
+ <h4>  Back-End </h4>
+  <table style="text-align:center;">
+    <tr>
+      <th><a href="https://github.com/fore0919">권은경</a></th>
+      <th><a href="https://github.com/Kyuuu827">이찬규</a></th>
+    </tr>
+    <tr>
+      <td>
+        - 숙소 전체리스트 엔드포인트 구현<br>
+        - 숙소 상세페이지 엔드포인트 구현<br>
+        - 담당 API Unit test 진행<br>
+        - Back Data 업로더 구현<br>
+        - DB 모델링
+      </td>
+      <td>
+        - 소셜 로그인(카카오API)/데코레이터 구현<br>
+        - 숙소 예약 엔드포인트 구현<br>
+        - 담당 API Unit test 진행<br>
+        - Back Data 업로더 구현<br>
+        - DB 모델링
+      </td>
+    </tr>       
+  </table>
+<br>  
+
+### 프론트엔드
+프론트엔드 기능 및 개인별 역할 보러가기 👉🏻 [Visit "26-2nd-Staywithme-frontend" Github](https://github.com/wecode-bootcamp-korea/26-2nd-Staywithme-frontend)  
+
+### 적용 기술
+- Front-End : React(Funiction-Component)\_reactr-router-dom(V6), 
+Styled-Components, JavaScript(ES6)
+- Back-End : Python, Django web framework, JWT, MySQL, AWS(EC2,RDS), Docker, RESTful API
+- 협업툴: Trello, Slack, Notion, Github, dbdiagram, postman
+
+## 📝 후기
+#### 1. 권은경
+* 
+* 
+
+#### 2. 이찬규
+* 소셜 로그인을 구현하면서 카카오API document를 접할 수 있었고, 내가 원하는 정보를 신속하고 정확하게 얻는 것이 중요하다는 것을 깨달았습니다. 방대한 양의 문서로부터 내가 원하는 정보만을 습득하는 것은 많이 어려웠습니다. 좀 더 많은 문서를 접하면서 익숙해져야 겠다고 생각하였습니다.
+* 지난 프로젝트에서도 느꼈지만, 원활한 소통과 효율적인 협업은 매우 중요하다는 것을 다시금 느꼈습니다. 협업 tool의 사용은 능숙해졌지만 
+
+프론트 후기 보러가기 👉🏻 [Visit "26-2nd-Staywithme-frontend" Github](https://github.com/wecode-bootcamp-korea/26-2nd-Staywithme-frontend) 
+
+## Reference
+이 프로젝트는 스테이폴리오 사이트를 참조하여 학습목적으로 만들었습니다.
+실무수준의 프로젝트이지만 학습용으로 만들었기 때문에 이 코드를 활용하여 이득을 취하거나 무단 배포할 경우 법적으로 문제될 수 있습니다.
