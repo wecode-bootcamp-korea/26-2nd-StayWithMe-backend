@@ -1,10 +1,10 @@
 # 🙌 안녕하세요. Staywithme 입니다!   
 
 ## 🗺  스테이폴리오 클론 프로젝트
-🛋  스테이폴리오를 모티브로 하여 학습목적으로 진행한 클론 코딩 프로젝트 입니다. 
-🛋  Django 웹 프레임워크를 사용하여 backend API를 구현하였습니다. 
-🛋  git rebase를 활용하여 commit history를 관리하였습니다. 
-🛋  AWS(EC2, RDS) / Docker를 통한 배포 완료하였습니다. 
+🛋  스테이폴리오를 모티브로 하여 학습목적으로 진행한 클론 코딩 프로젝트 입니다.<br>
+🛋  Django 웹 프레임워크를 사용하여 backend API를 구현하였습니다.<br>
+🛋  git rebase를 활용하여 commit history를 관리하였습니다.<br>
+🛋  AWS(EC2, RDS) / Docker를 통한 배포 완료하였습니다.<br>
 
 ## 🏷 목차
 1. 기간
