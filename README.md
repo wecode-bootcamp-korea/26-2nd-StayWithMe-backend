@@ -1,9 +1,10 @@
 # 🙌 안녕하세요. Staywithme 입니다!   
 
 ## 🗺  스테이폴리오 클론 프로젝트
-🛋 각 숙소에 대한 정보를 접근하기 위한, Feed list 형식을 제공합니다.
-🛋 정보의 접근성을위해, pagination을 통해 list로 분할하여 보여줍니다.
-🛋 각 숙소에 대한 DetailPage 내에서 숙소에 대한 정보 및 이미지를 확인할 수 있으며 Info-Extension을 Carousel-Slider를 통해 보여줍니다.
+🛋  스테이폴리오를 모티브로 하여 학습목적으로 진행한 클론 코딩 프로젝트 입니다. 
+🛋  Django 웹 프레임워크를 사용하여 backend API를 구현하였습니다. 
+🛋  git rebase를 활용하여 commit history를 관리하였습니다. 
+🛋  AWS(EC2, RDS) / Docker를 통한 배포 완료하였습니다. 
 
 ## 🏷 목차
 1. 기간
@@ -53,7 +54,7 @@
 - Front-End : React(Funiction-Component)\_reactr-router-dom(V6), 
 Styled-Components, JavaScript(ES6)
 - Back-End : Python, Django web framework, JWT, MySQL, AWS(EC2,RDS), Docker, RESTful API
-- 협업툴: Trello, Slack, Notion, Github, dbdiagram, postman
+- 협업툴 : Trello, Slack, Notion, Github, dbdiagram, postman
 
 ## 📝 후기
 #### 1. 권은경
